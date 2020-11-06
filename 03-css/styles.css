@@ -1,0 +1,36 @@
+li {
+    font-family: Verdana;
+}
+
+/* IDs are unique */
+/* select the li with the id of important */
+/* li#important {
+    background-color: yellow;
+} */
+
+#important {
+    background-color: yellow;
+}
+
+/* Use class to select mutliple elements */
+/* Select the <li> with the class urgent */
+li.urgent {
+    color: red;
+    font-size: 32px;
+}
+
+/* apply this to ANY elements with the class urgent */
+.urgent  {
+    text-decoration: underline;
+    font-size: 24px;
+}
+
+/* for all the li.urgent inside #low-priority */
+#low-priority li.urgent {
+    color: orange;
+}
+
+/* child selector (aka direct descendant) */
+/* #low-priority > li.urgent {
+    color: orange;
+} */
