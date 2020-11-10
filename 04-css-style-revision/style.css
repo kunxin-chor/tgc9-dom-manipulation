@@ -1,0 +1,36 @@
+h1 {
+    color: red;
+}
+
+p.emphasis {
+    background-color: red;
+    color: white;
+}
+
+li#important {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 36px;
+}
+
+li.task {
+    background-color: rgba(255, 255, 0, 1);
+}
+
+.task {
+    /*border: 1px red solid;*/
+    border-color: red;
+    border-style: solid;
+    border-width: 1px;
+}
+
+#low-priority li.task {
+    background-color: red;
+}
+
+p.emphasis {
+    font-weight: bold;
+}
+
+#high-priority li.task {
+    color: green;
+}

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div>
+        <div>
+            <label>First Name</label>
+            <!-- textbox -->
+            <input type="text" id="first-name"/> 
+        </div>
+        <div>
+            <label>Bed size</label>
+            <input type="radio" value="single" class="bed" name="bed" checked/>Single bed
+            <input type="radio" value="double" class="bed" name="bed"/>Double bed
+            <input type="radio" value="king-size" class="bed" name="bed"/>King Size
+        </div>
+        <div>
+            <label>Extra amentities</label>
+            <input type="checkbox" value="free-flow-drink" class="amentities"/>Free-flow drinks
+            <input type="checkbox" value="cable-tv" class="amentities"/>Cable TV
+            <input type="checkbox" value="gym-access" class="amentities"/>Gym Access
+        </div>  
+        <div>
+            <label>Select your check in timing</label>
+            <select id="timing">
+                <option value="morning">Morning</option>
+                <option value="afternoon" selected>Afternoon</option>
+                <option value="evening">Evening</option>
+            </select>
+        </div>
+        <button id="submit-btn">Submit</button>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
