@@ -1,0 +1,26 @@
+{
+  "drink": {
+    "name": "Free-flow drinks",
+    "cost": 5
+  },
+  "printer": {
+    "name": "100x black and white printer copies",
+    "cost": 15
+  },
+  "buffet": {
+    "name": "Access to lunch buffet (discounted)",
+    "cost": 25
+  },
+  "high-speed-internet": {
+    "name": "100mbps Internet access",
+    "cost": 10
+  },
+  "sleeping-pod": {
+    "name": "Pokemon sleeping pod",
+    "cost": 15
+  },
+  "spa": {
+    "name": "Spa access discount",
+    "cost": 50
+  }
+}

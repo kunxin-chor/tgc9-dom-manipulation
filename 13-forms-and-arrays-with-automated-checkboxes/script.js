@@ -1,32 +1,10 @@
 let costTable = {
     'drink': 5,
-    "printer":15,
+    printer:15,
     spa:30,
     buffet:25,
     'high-speed-internet':5
 }
-
-let serviceText = {
-    'en': {
-        'drink':'Free-flow drinks',
-        'printer':'100x black and white printer copies',
-        'buffet':'Access to lunch buffet (discounted)',
-        'high-speed-internet':'100mbps Internet access',
-        'sleeping-pod':'Pokemon sleeping pod',
-        'spa':'Spa access discount'
-    },
-    'jp':{
-        'drink':'フリーフロードリンク',
-        'printer':'100倍の白黒プリンターコピー',
-        'buffet':'ランチビュッフェへのアクセス（割引）',
-        'high-speed-internet':'100mbpsインターネットアクセス',
-        'sleeping-pod':'ポケモンスリープポッド',
-        'spa':'スパアクセス割引'
-
-    }
-}
-
-let selectedLanguage = 'jp';
 
 let servicesTable = {
     'drink': {
@@ -67,11 +45,9 @@ for (let eachService in servicesTable) {
     let serviceInfo = servicesTable[eachService];
     console.log(serviceInfo);
 
-    let translatedServiceName = serviceText[selectedLanguage][eachService];
-
     newServiceElement.innerHTML = `<input class="form-check-input services" type="checkbox" id="gridCheck1" value="${eachService}">
                 <label class="form-check-label" for="gridCheck1">
-                    ${translatedServiceName} ($${serviceInfo.cost})
+                    ${serviceInfo.name} ($${serviceInfo.cost})
                 </label>`
 
     // append the <div> that will display all the services

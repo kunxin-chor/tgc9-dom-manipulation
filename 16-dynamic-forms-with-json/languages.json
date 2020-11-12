@@ -1,0 +1,18 @@
+{
+  "en": {
+    "drink": "Free-flow drinks",
+    "printer": "100x black and white printer copies",
+    "buffet": "Access to lunch buffet (discounted)",
+    "high-speed-internet": "100mbps Internet access",
+    "sleeping-pod": "Pokemon sleeping pod",
+    "spa": "Spa access discount"
+  },
+  "jp": {
+    "drink": "フリーフロードリンク",
+    "printer": "100倍の白黒プリンターコピー",
+    "buffet": "ランチビュッフェへのアクセス（割引）",
+    "high-speed-internet": "100mbpsインターネットアクセス",
+    "sleeping-pod": "ポケモンスリープポッド",
+    "spa": "スパアクセス割引"
+  }
+}

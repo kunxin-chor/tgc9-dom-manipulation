@@ -1,0 +1,17 @@
+[
+    {
+        "sku":1201,
+        "name":"ACME Nails",
+        "cost": 5.50
+    },
+    {
+        "sku":1502,
+        "name":"ACME Hammer",
+        "cost":50.00
+    },
+    {
+        "sku": 717,
+        "name":"ACME Screwdriver",
+        "cost":25.00
+    }
+]
